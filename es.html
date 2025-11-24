@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1389509355423812');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1389509355423812&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visa de Rentista (Income Holder) Colombia | Colombian Passport</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        /* --- CSS VARIABLES & RESET --- */
+        :root {
+            /* Emerald & Gold Palette for "Rentista" */
+            --primary-900: #064e3b;
+            --primary-800: #065f46;
+            --primary-700: #047857;
+            --primary-600: #059669; /* Main Action Color */
+            --primary-50: #ecfdf5;
+            
+            --accent-600: #d97706; /* Gold/Amber for money related accents */
+            --accent-50: #fffbeb;
+
+            --gray-900: #111827;
+            --gray-800: #1f2937;
+            --gray-700: #374151;
+            --gray-600: #4b5563;
+            --gray-50: #f9fafb;
+            --white: #ffffff;
+            
+            --red-600: #dc2626;
+            --red-50: #fef2f2;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--gray-50);
+            color: var(--gray-800);
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+
+        a { text-decoration: none; color: inherit; transition: color 0.2s; }
+        ul { list-style: none; }
+        img { max-width: 100%; height: auto; display: block; }
+
+        /* --- LAYOUT --- */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3rem;
+        }
+        
+        @media (min-width: 768px) {
+            .grid-2 { grid-template-columns: 1fr 1fr; }
+        }
+
+        .text-center { text-align: center; }
+        .mx-auto { margin-left: auto; margin-right: auto; }
+        .hidden { display: none !important; }
+        .block { display: block; }
+
+        /* --- NAVIGATION --- */
+        nav {
+            background-color: var(--white);
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 50;
+        }
+        
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+        }
+
+        .logo-img { height: 48px; width: auto; }
+
+        .nav-links-desktop { display: none; gap: 1.5rem; align-items: center; }
+        .nav-links-desktop a { font-weight: 500; color: var(--gray-700); font-size: 0.9rem; }
+        .nav-links-desktop a:hover { color: var(--primary-600); }
+
+        .mobile-menu-btn { background: none; border: none; cursor: pointer; color: var(--gray-700); }
+        
+        /* Language Switcher Styles */
+        .lang-switch {
+            display: flex;
+            align-items: center;
+            font-size: 0.9rem;
+            margin-right: 1rem;
+        }
+        .lang-active { font-weight: 700; color: var(--primary-600); }
+        .lang-inactive { color: var(--gray-600); font-weight: 500; }
+        .lang-inactive:hover { color: var(--primary-600); }
+        .lang-separator { color: #cbd5e1; margin: 0 0.5rem; }
+
+        @media (min-width: 768px) {
+            .nav-links-desktop { display: flex; }
+            .mobile-menu-btn { display: none; }
+        }
+
+        #mobile-menu {
+            background-color: var(--white);
+            border-top: 1px solid #eee;
+            padding: 1rem 0;
+        }
+        #mobile-menu a {
+            display: block;
+            padding: 0.75rem 1.5rem;
+            color: var(--gray-700);
+            font-weight: 500;
+        }
+        #mobile-menu a:hover { background-color: var(--primary-50); color: var(--primary-600); }
+
+        /* --- BUTTONS --- */
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .btn-primary { background-color: var(--primary-600); color: white; }
+        .btn-primary:hover { background-color: var(--primary-700); }
+        .btn-accent { background-color: var(--accent-600); color: white; }
+        .btn-accent:hover { background-color: #b45309; } /* Darker amber */
+        .btn-outline { background-color: white; border: 2px solid var(--primary-600); color: var(--primary-600); }
+        .btn-outline:hover { background-color: var(--primary-50); }
+
+        /* --- HERO SECTION --- */
+        .hero-section {
+            background-color: var(--primary-900);
+            /* Subtle pattern for financial/stability feel */
+            background-image: radial-gradient(circle at 20% 150%, rgba(217, 119, 6, 0.15) 0%, transparent 50%),
+                              radial-gradient(circle at 80% -50%, rgba(5, 150, 105, 0.2) 0%, transparent 50%);
+            color: white;
+            padding: 6rem 0;
+            text-align: center;
+        }
+        .hero-title { font-size: 2.5rem; font-weight: 800; line-height: 1.2; margin-bottom: 1rem; }
+        .hero-subtitle { font-size: 1.5rem; font-weight: 300; margin-bottom: 2rem; opacity: 0.9; color: #d1fae5; }
+        .hero-text { font-size: 1.125rem; color: #e5e7eb; max-width: 42rem; margin: 0 auto 2.5rem auto; }
+
+        @media (min-width: 768px) {
+            .hero-section { padding: 9rem 0; }
+            .hero-title { font-size: 4rem; }
+            .hero-subtitle { font-size: 2rem; }
+        }
+
+        /* --- SECTIONS --- */
+        .section-padding { padding: 5rem 0; }
+        .section-title { font-size: 2.25rem; font-weight: 700; color: var(--primary-900); text-align: center; margin-bottom: 3rem; }
+        
+        /* --- CARDS & FEATURES --- */
+        .feature-card {
+            background-color: var(--white);
+            border-left: 4px solid;
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .feature-green { background-color: var(--primary-50); border-color: var(--primary-600); }
+        .feature-green h3 { color: var(--primary-800); }
+        .feature-gold { background-color: var(--accent-50); border-color: var(--accent-600); }
+        .feature-gold h3 { color: #92400e; }
+        
+        .feature-title { font-size: 1.25rem; font-weight: 600; margin-bottom: 0.5rem; }
+        
+        .camila-photo {
+            width: 100%;
+            max-width: 320px;
+            border-radius: 0.75rem;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        /* --- TESTIMONIALS --- */
+        .testimonial-card {
+            background-color: var(--white);
+            padding: 2rem;
+            border-radius: 0.75rem;
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+            border-top: 4px solid var(--accent-600);
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .stars { color: var(--accent-600); display: flex; gap: 0.25rem; margin-bottom: 1rem; }
+        .quote { font-style: italic; color: var(--gray-600); flex-grow: 1; margin-bottom: 1.5rem; }
+
+        /* --- FORM --- */
+        .form-card {
+            background-color: var(--white);
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1);
+            max-width: 42rem;
+            margin: 0 auto;
+        }
+        @media(min-width: 640px) { .form-card { padding: 3.5rem; } }
+
+        .form-group { margin-bottom: 1.5rem; }
+        .form-label { font-size: 1.125rem; font-weight: 500; color: var(--gray-800); display: block; margin-bottom: 0.75rem; }
+        
+        .radio-group { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+        
+        /* Custom Radio Styling */
+        .radio-custom { display: none; } 
+        .radio-custom-label {
+            padding: 0.75rem 1.25rem;
+            border: 1px solid #d1d5db;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            color: var(--gray-700);
+            font-size: 0.9rem;
+            transition: all 0.2s;
+        }
+        .radio-custom:checked + .radio-custom-label {
+            background-color: var(--primary-600);
+            color: white;
+            border-color: var(--primary-600);
+            box-shadow: 0 0 0 2px #a7f3d0;
+        }
+        .radio-custom-label:hover { background-color: var(--gray-50); }
+
+        select {
+            width: 100%;
+            padding: 0.875rem;
+            border: 1px solid #d1d5db;
+            border-radius: 0.5rem;
+            font-size: 1rem;
+            background-color: white;
+        }
+
+        /* --- RESULTS BOX --- */
+        .bg-green-50 { background-color: #f0fdf4; }
+        .text-green-800 { color: #166534; }
+        .border-green-600 { border-color: #16a34a; }
+        
+        .bg-red-50 { background-color: #fef2f2; }
+        .text-red-800 { color: #991b1b; }
+        .border-red-600 { border-color: #dc2626; }
+
+        .bg-yellow-50 { background-color: #fffbeb; }
+        .text-yellow-800 { color: #92400e; }
+        .border-yellow-500 { border-color: #f59e0b; }
+
+        .border-l-4 { border-left-width: 4px; }
+        .p-6 { padding: 1.5rem; }
+        .rounded-lg { border-radius: 0.5rem; }
+
+        /* --- PRICING / INVESTMENT --- */
+        .pricing-card {
+            background-color: var(--primary-50);
+            padding: 2rem;
+            border-radius: 1rem;
+            border: 1px solid #6ee7b7;
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+        }
+        .price-tag { font-size: 3rem; font-weight: 800; color: var(--primary-800); margin: 1rem 0; }
+        
+        .cost-item {
+            background-color: var(--white);
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #e5e7eb;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+        .cost-title { font-size: 1.1rem; font-weight: 600; color: var(--gray-900); }
+        .cost-val { font-size: 1.25rem; font-weight: 700; color: var(--primary-800); }
+
+        /* --- FAQ --- */
+        .faq-item {
+            background-color: var(--white);
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+            margin-bottom: 1rem;
+        }
+        .faq-question { font-size: 1.1rem; font-weight: 600; color: var(--primary-800); margin-bottom: 0.5rem; }
+
+        /* --- FOOTER --- */
+        footer { background-color: var(--gray-900); color: #9ca3af; padding: 4rem 0; text-align: center; }
+        footer a:hover { color: var(--primary-50); }
+
+        /* --- ANIMATIONS --- */
+        .section-fade-in { opacity: 0; transform: translateY(30px); transition: opacity 0.8s ease-out, transform 0.8s ease-out; }
+        .section-fade-in.visible { opacity: 1; transform: translateY(0); }
+
+        /* --- COOKIE BANNER --- */
+        #cookie-consent-banner {
+            position: fixed;
+            bottom: 0; left: 0; right: 0;
+            background-color: var(--gray-800);
+            color: white;
+            padding: 1rem;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            z-index: 100;
+            text-align: center;
+        }
+        @media(min-width: 640px) { #cookie-consent-banner { flex-direction: row; } }
+
+    </style>
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav>
+        <div class="container">
+            <div class="nav-container">
+                <a href="https://www.colombianpassport.com" title="Colombian Passport Home">
+                    <img src="https://static.wixstatic.com/media/d8d541_c0e6b982a4e341f399c07cac0156aebb~mv2.png" alt="Colombian Passport Logo" class="logo-img" onerror="this.onerror=null;this.src='https://placehold.co/200x50/0056b3/FFFFFF?text=ColombianPassport.com';">
+                </a>
+                
+                <div class="nav-links-desktop">
+                    <div class="lang-switch">
+                        <a href="index.html" class="lang-inactive">EN</a>
+                        <span class="lang-separator">|</span>
+                        <span class="lang-active">ES</span>
+                    </div>
+                    <a href="#why-us">Por Qué Nosotros</a>
+                    <a href="#testimonials">Testimonios</a>
+                    <a href="#faq">Preguntas</a>
+                    <a href="#investment">Inversión</a>
+                    <a href="#form-section" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Verificar mi Caso</a>
+                </div>
+
+                <button id="mobile-menu-button" class="mobile-menu-btn">
+                    <svg style="width: 24px; height: 24px;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden">
+            <a href="rentista_visa_landing_en.html" style="color: var(--primary-600); font-weight: bold;">Switch to English</a>
+            <a href="#why-us">Por Qué Nosotros</a>
+            <a href="#testimonials">Testimonios</a>
+            <a href="#faq">Preguntas</a>
+            <a href="#investment">Inversión</a>
+            <a href="#form-section">Verificar mi Caso</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero-section section-fade-in">
+        <div class="container">
+            <h1 class="hero-title">Explora Colombia: Asegura tu Visa de Rentista.</h1>
+            <h2 class="hero-subtitle">Asesoría Legal Experta para Inversores y Rentistas</h2>
+            <p class="hero-text">Ideal para quienes tienen ingresos pasivos y buscan explorar el país y disfrutar de un estilo de vida cómodo en Colombia. Te guiamos en cada paso.</p>
+            <a href="#form-section" class="btn btn-accent" style="padding: 1rem 2.5rem; font-size: 1.1rem;">Verificar Elegibilidad - ¡Gratis!</a>
+        </div>
+    </header>
+
+    <!-- WHY US -->
+    <section id="why-us" class="section-padding section-fade-in" style="background-color: white;">
+        <div class="container">
+            <h2 class="section-title">¿Por Qué Elegir Colombian Passport?</h2>
+            <div class="grid-2" style="align-items: center;">
+                <div style="display: flex; justify-content: center;">
+                    <img src="https://static.wixstatic.com/media/d8d541_e08ab4e7b0124418a3f5b7e014d1f531~mv2.png" alt="Camila Ocampo, Immigration Lawyer" class="camila-photo" onerror="this.onerror=null;this.src='https://placehold.co/320x400/1e3a8a/FFFFFF?text=Camila+Ocampo';">
+                </div>
+                <div>
+                     <div class="feature-card feature-green">
+                        <h3>Experiencia y Precisión</h3>
+                        <p style="color: var(--primary-800);">Nuestro equipo navega el complejo proceso de visas con experiencia inigualable, asegurando que tu solicitud sea impecable de principio a fin, ahorrándote tiempo y estrés.</p>
+                    </div>
+                     <div class="feature-card feature-gold">
+                        <h3>Compromiso con Estrategia Adaptativa</h3>
+                        <p style="color: #92400e;">Si tu solicitud inicial es 'inadmitida' (requiere correcciones), nuestro servicio incluye preparar y volver a presentar la solicitud tantas veces como sea necesario sin costo extra, adaptando la estrategia hasta el éxito.</p>
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <h3 class="feature-title" style="color: var(--primary-800);">Acceso a Nuestra Red de Confianza</h3>
+                        <p style="color: var(--gray-700);">Te conectamos con socios de confianza para traducciones certificadas, apostillas, seguros de salud y asesoría financiera, asegurando precios justos y servicio confiable.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section id="testimonials" class="section-padding section-fade-in">
+        <div class="container">
+            <h2 class="section-title">Lo Que Dicen Nuestros Clientes</h2>
+            <div class="grid-2">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">"Después de un rechazo intentándolo por mi cuenta, Colombian Passport me ayudó a obtener mi visa con éxito. Su experiencia sobre los requisitos de ingresos fue invaluable. Totalmente vale la inversión."</p>
+                    <div style="margin-top: auto; text-align: right;">
+                        <p style="font-weight: bold; color: var(--primary-800);">- Jessica L.</p>
+                        <p style="font-size: 0.875rem; color: var(--gray-500);">Fuente: Comentarios de Clientes</p>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">"Camila y su equipo hicieron que el proceso de la visa de Rentista fuera increíblemente fluido. Me ayudaron a organizar mis documentos financieros perfectamente, que era mi mayor preocupación. ¡Ahora vivo felizmente en Medellín!"</p>
+                    <div style="margin-top: auto; text-align: right;">
+                        <p style="font-weight: bold; color: var(--primary-800);">- Mark T.</p>
+                        <p style="font-size: 0.875rem; color: var(--gray-500);">Fuente: Google Review</p>
+                    </div>
+                </div>
+            </div>
+             <div class="text-center" style="margin-top: 3rem;">
+                <a href="https://share.google/giVZwEb7upuVxsTqp" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Leer Más Reseñas en Google</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUALIFICATION FORM -->
+    <section id="form-section" class="section-padding section-fade-in">
+        <div class="container">
+            <div class="form-card">
+                <h2 class="section-title" style="margin-bottom: 1rem; color: var(--primary-800);">Verifica tu Elegibilidad para Visa de Ingresos</h2>
+                <p class="text-center" style="margin-bottom: 2.5rem; color: var(--gray-600);">Responde estas preguntas rápidas para una evaluación preliminar. Es gratis y confidencial.</p>
+
+                <form id="rentistaVisaForm">
+                    <div class="form-group">
+                        <label class="form-label">1. ¿Cuál es tu principal fuente de ingresos?</label>
+                        <select id="incomeSource" name="incomeSource" required>
+                          <option value="" disabled selected>Selecciona una opción</option>
+                          <option value="pension">Pensión / Jubilación</option>
+                          <option value="rent">Rentas de Propiedades</option>
+                          <option value="investments">Inversiones Financieras / Anualidades</option>
+                          <option value="salary">Salario / Trabajo (Remoto o Local)</option>
+                        </select>
+                    </div>
+
+                     <div class="form-group">
+                        <label class="form-label">2. ¿Tus ingresos pasivos mensuales superan aprox. $3,300 USD (10 Salarios Mínimos)?</label>
+                        <p style="font-size: 0.85rem; color: #666; margin-bottom: 0.5rem;">*Para 2025, esto es aprox. 14,300,000 COP.</p>
+                        <div class="radio-group">
+                            <input type="radio" id="incomeYes" name="hasIncome" value="yes" class="radio-custom" required><label for="incomeYes" class="radio-custom-label">Sí, superan eso</label>
+                            <input type="radio" id="incomeNo" name="hasIncome" value="no" class="radio-custom"><label for="incomeNo" class="radio-custom-label">No, son menores</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">3. ¿Tienes antecedentes penales en los últimos 3 años?</label>
+                        <div class="radio-group">
+                            <input type="radio" id="criminalNo" name="criminalRecord" value="no" class="radio-custom" required><label for="criminalNo" class="radio-custom-label">No</label>
+                            <input type="radio" id="criminalYes" name="criminalRecord" value="yes" class="radio-custom"><label for="criminalYes" class="radio-custom-label">Sí</label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.1rem; padding: 1rem;">Ver Mi Evaluación Preliminar</button>
+                </form>
+
+                <div id="resultArea" style="display: none; margin-top: 2rem;"></div>
+            </div>
+        </div>
+    </section>
+
+     <!-- FAQ -->
+    <section id="faq" class="section-padding section-fade-in" style="background-color: var(--white);">
+        <div class="container" style="max-width: 800px;">
+             <h2 class="section-title">Preguntas Frecuentes</h2>
+             <div>
+                <div class="faq-item">
+                    <h3 class="faq-question">¿Puedo trabajar en Colombia con esta visa?</h3>
+                    <p class="text-gray-700">No. La Visa de Rentista es estrictamente para quienes tienen ingresos pasivos. <strong>No se permite</strong> trabajar o prestar servicios a una empresa colombiana. Sin embargo, puedes seguir gestionando tus inversiones extranjeras.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">¿Esta visa me permite acumular tiempo para la Residencia?</h3>
+                    <p class="text-gray-700">Bajo las regulaciones actuales (Visitante Tipo V), esta visa típicamente <strong>no permite</strong> acumular tiempo para la residencia permanente. Está diseñada para estancias temporales de hasta 2 años a la vez.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">¿Puedo traer a mi familia?</h3>
+                    <p class="text-gray-700">¡Sí! Puedes solicitar visas de beneficiario para tu cónyuge e hijos menores de 25 años (económicamente dependientes). Ellos necesitarán sus propias solicitudes de visa vinculadas a la tuya.</p>
+                </div>
+                 <div class="faq-item">
+                    <h3 class="faq-question">¿Por cuánto tiempo es válida la visa?</h3>
+                    <p class="text-gray-700">Puede ser otorgada por hasta 2 años. Sin embargo, la duración final queda a discreción del oficial de migración que revise tu caso.</p>
+                </div>
+             </div>
+        </div>
+    </section>
+
+     <!-- INVESTMENT -->
+    <section id="investment" class="section-padding section-fade-in" style="background-color: var(--gray-50);">
+        <div class="container" style="max-width: 1000px;">
+            <h2 class="section-title">Inversión en tu Estilo de Vida Colombiano</h2>
+            <div class="grid-2" style="align-items: start;">
+                <div class="pricing-card">
+                    <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--primary-800);">Honorarios Legales</h3>
+                    <p class="price-tag">$500 <span style="font-size: 1.5rem; color: var(--gray-600); font-weight: 500;">USD</span></p>
+                    <p style="color: var(--gray-600); margin-bottom: 1.5rem;">Un pago único por nuestro soporte legal completo, desde la estrategia hasta la guía para tu Cédula.</p>
+                    <ul>
+                        <li style="display: flex; align-items: start; color: var(--primary-800); font-weight: 500; margin-bottom: 0.5rem;">
+                            <span style="margin-right: 0.5rem; color: var(--primary-600);">✓</span>
+                            Análisis Experto de Documentos Financieros.
+                        </li>
+                        <li style="display: flex; align-items: start; color: var(--primary-800); font-weight: 500;">
+                            <span style="margin-right: 0.5rem; color: var(--primary-600);">✓</span>
+                            Incluye reaplicación si es inadmitida.
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                     <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem;">Costos del Gobierno (Terceros)</h3>
+                     <div class="cost-item">
+                        <p class="cost-title">Estudio de Visa</p>
+                        <p class="cost-val">$54 USD</p>
+                        <p style="font-size: 0.875rem; color: var(--gray-600);">Se paga al enviar la solicitud.</p>
+                     </div>
+                      <div class="cost-item">
+                        <p class="cost-title">Expedición de Visa</p>
+                        <p class="cost-val">$177 USD</p>
+                        <p style="font-size: 0.875rem; color: var(--gray-600);">Se paga tras la aprobación.</p>
+                      </div>
+                      <div class="cost-item">
+                        <p class="cost-title">Cédula de Extranjería</p>
+                        <p class="cost-val">~$70 USD / 280k COP</p>
+                        <p style="font-size: 0.875rem; color: var(--gray-600);">Se paga en Migración Colombia.</p>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- FINAL CTA -->
+    <section class="section-padding section-fade-in" style="background-color: var(--primary-900); color: white; text-align: center;">
+        <div class="container">
+            <h2 style="font-size: 2.5rem; font-weight: 700; margin-bottom: 1.5rem;">¿Listo para Vivir en Colombia?</h2>
+            <p style="font-size: 1.25rem; opacity: 0.9; max-width: 800px; margin: 0 auto 2.5rem auto;">No dejes que el papeleo te detenga. Deja que nuestros expertos manejen los detalles para que disfrutes tu nueva vida.</p>
+            <a href="https://wa.me/573223395612?text=Hola%20Camila,%20estoy%20interesado/a%20en%20la%20asesor%C3%ADa%20para%20la%20Visa%20de%20Rentista." target="_blank" class="btn btn-accent" style="font-size: 1.25rem; padding: 1rem 2.5rem;">Contactar por WhatsApp</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <a href="https://www.colombianpassport.com" target="_blank" rel="noopener noreferrer">
+                <img src="https://static.wixstatic.com/media/d8d541_c0e6b982a4e341f399c07cac0156aebb~mv2.png" alt="Colombian Passport Logo" class="logo-img mx-auto" style="margin-bottom: 1.5rem;" onerror="this.onerror=null;this.src='https://placehold.co/200x50/374151/9CA3AF?text=ColombianPassport.com';">
+            </a>
+            <a href="https://www.colombianpassport.com" target="_blank" rel="noopener noreferrer" style="display: block; font-size: 1.125rem; margin-bottom: 1rem; color: white;">Colombian Passport</a>
+            <p>&copy; <span id="currentYear"></span> ColombianPassport.com. All Rights Reserved.</p>
+            <p style="font-size: 0.875rem; margin-bottom: 1.5rem;">Asesoría legal experta para tu viaje migratorio.</p>
+            <div style="display: flex; justify-content: center; gap: 1.5rem;">
+                <a href="https://www.abogadosdemigracion.com.co/politica-privacidad" target="_blank" rel="noopener noreferrer">Política de Privacidad</a>
+                <a href="mailto:camila@colombianpassport.com">camila@colombianpassport.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-consent-banner">
+        <p>Usamos cookies para mejorar tu experiencia y para fines de marketing. Al continuar, aceptas nuestra <a href="https://www.abogadosdemigracion.com.co/politica-privacidad" target="_blank" rel="noopener noreferrer" style="text-decoration: underline;">Política de Privacidad</a>.</p>
+        <button id="accept-cookies" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.875rem;">Aceptar</button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Mobile Menu Logic
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', function() {
+                    mobileMenu.classList.toggle('hidden');
+                });
+                mobileMenu.querySelectorAll('a').forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                    });
+                });
+            }
+            
+            // Smooth Scroll
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                         if (mobileMenu && !mobileMenu.classList.contains('hidden')) {
+                             mobileMenu.classList.add('hidden');
+                         }
+                    }
+                });
+            });
+            
+            // Fade In Animation
+            const sections = document.querySelectorAll('.section-fade-in');
+            const observerOptions = { root: null, rootMargin: '0px', threshold: 0.1 };
+            const observer = new IntersectionObserver((entries, obs) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        obs.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+            sections.forEach(section => observer.observe(section));
+
+            document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+            // FORM LOGIC
+            const form = document.getElementById('rentistaVisaForm');
+            if(form) {
+                const resultArea = document.getElementById('resultArea');
+            
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault();
+
+                    const formData = new FormData(form);
+                    const data = Object.fromEntries(formData.entries());
+
+                    let status = 'QUALIFIED';
+                    let messages = [];
+
+                    // Logic for Rentista Visa
+                    if (data.incomeSource === 'salary') {
+                        status = 'ALTERNATIVE_VISA'; // Changed from NOT_QUALIFIED
+                        messages.push('Esta visa es para ingresos PASIVOS. Si recibes un salario, podrías calificar mejor para una Visa de Nómada Digital o de Trabajo.');
+                    } else if (data.incomeSource === 'pension') {
+                        status = 'ALTERNATIVE_VISA'; // Changed from NOT_QUALIFIED
+                        messages.push('Para pensionados, existe una visa específica (Visa de Beneficiario de Pensión) que suele tener requisitos de ingresos más bajos. ¡Pregúntanos por ella!');
+                    }
+
+                    if (data.hasIncome === 'no') {
+                        status = 'NOT_QUALIFIED';
+                        messages.push('Debes demostrar un ingreso mensual de al menos 10 Salarios Mínimos Colombianos (aprox $3,300 USD).');
+                    }
+                    
+                    if (data.criminalRecord === 'yes') {
+                        status = 'MORE_INFO_NEEDED';
+                        messages.push('Tener antecedentes penales requiere un análisis legal detallado para determinar la elegibilidad.');
+                    }
+
+                    displayResults(status, messages, data);
+                });
+            }
+
+            function displayResults(status, messages, data) {
+                const resultArea = document.getElementById('resultArea');
+                resultArea.innerHTML = '';
+                resultArea.className = 'p-6 rounded-lg text-center'; 
+                resultArea.style.display = 'block';
+                let content = '';
+
+                let whatsappMessage = `Hola Camila, verifiqué mi elegibilidad para la Visa de Rentista. Mis respuestas:\n\n`;
+                whatsappMessage += `1. Fuente de Ingresos: ${data.incomeSource}\n`;
+                whatsappMessage += `2. Ingresos > 10 SMLMV: ${data.hasIncome}\n`;
+                whatsappMessage += `3. Antecedentes Penales: ${data.criminalRecord}\n\n`;
+                
+                const encodedMessage = encodeURIComponent(whatsappMessage);
+                const whatsappBaseLink = `https://wa.me/573223395612?text=`;
+                
+                if(status === 'QUALIFIED') {
+                    resultArea.classList.add('bg-green-50', 'border-l-4', 'border-green-600', 'text-green-800');
+                    const finalWhatsappLink = whatsappBaseLink + encodeURIComponent(whatsappMessage + "Me gustaría proceder con el servicio.");
+                    content = `
+                        <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem;">¡Buenas noticias! Pareces elegible. 🎉</h3>
+                        <p style="margin-bottom: 1.5rem;">Tu perfil coincide con los requisitos clave para la Visa de Rentista. Verifiquemos tus documentos e iniciemos el proceso.</p>
+                        <a href="${finalWhatsappLink}" target="_blank" class="btn btn-primary">
+                            Contactar para Iniciar
+                        </a>
+                    `;
+                } else if(status === 'ALTERNATIVE_VISA') {
+                     resultArea.classList.add('bg-yellow-50', 'border-l-4', 'border-yellow-500', 'text-yellow-800');
+                     const finalWhatsappLink = whatsappBaseLink + encodeURIComponent(whatsappMessage + "Quiero saber más sobre la visa alternativa.");
+                     content = `
+                        <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem;">¡Atención! Podría haber una mejor opción.</h3>
+                        <p style="margin-bottom: 1.5rem;">La Visa de Rentista podría no ser la ideal, pero tus respuestas indican que calificas para otra categoría:</p>
+                        <ul style="text-align: left; list-style: disc; padding-left: 1.5rem; margin-bottom: 1.5rem;">
+                            ${messages.map(msg => `<li>${msg}</li>`).join('')}
+                        </ul>
+                        <a href="${finalWhatsappLink}" target="_blank" class="btn btn-primary">
+                           Preguntar por la Visa Correcta
+                        </a>
+                    `;
+                } else if(status === 'MORE_INFO_NEEDED') {
+                    resultArea.classList.add('bg-yellow-50', 'border-l-4', 'border-yellow-500', 'text-yellow-800');
+                    const finalWhatsappLink = whatsappBaseLink + encodeURIComponent(whatsappMessage + "Necesito asesoría sobre mi situación específica.");
+                    content = `
+                        <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem;">Revisemos tu Caso.</h3>
+                        <p style="margin-bottom: 1.5rem;">Podrías ser elegible, pero necesitamos aclarar algunos puntos (como tus antecedentes) para estar seguros.</p>
+                        <ul style="text-align: left; list-style: disc; padding-left: 1.5rem; margin-bottom: 1.5rem;">
+                            ${messages.map(msg => `<li>${msg}</li>`).join('')}
+                        </ul>
+                        <a href="${finalWhatsappLink}" target="_blank" class="btn btn-primary">
+                           Discutir mi Caso
+                        </a>
+                    `;
+                } else { // NOT_QUALIFIED
+                    resultArea.classList.add('bg-red-50', 'border-l-4', 'border-red-600', 'text-red-800');
+                    const finalWhatsappLink = whatsappBaseLink + encodeURIComponent(whatsappMessage + "¿Qué otras opciones de visa tengo?");
+                    content = `
+                        <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem;">Esta visa podría no ser la adecuada.</h3>
+                        <p style="margin-bottom: 1.5rem;">Según tus respuestas, no cumples con los requisitos estándar para la Visa de Rentista (generalmente por la fuente o monto de ingresos).</p>
+                        <ul style="text-align: left; list-style: disc; padding-left: 1.5rem; margin-bottom: 1.5rem;">
+                             ${messages.map(msg => `<li>${msg}</li>`).join('')}
+                        </ul>
+                        <p style="margin-bottom: 1rem;">Sin embargo, podrías calificar para una <strong>Visa de Nómada Digital</strong> o de <strong>Trabajo</strong>. Contáctanos para explorar opciones.</p>
+                        <a href="${finalWhatsappLink}" target="_blank" class="btn btn-outline">
+                           Preguntar por Otras Visas
+                        </a>
+                    `;
+                }
+
+                resultArea.innerHTML = content;
+                resultArea.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+
+            // Cookie Consent
+            const consentBanner = document.getElementById('cookie-consent-banner');
+            const acceptCookiesBtn = document.getElementById('accept-cookies');
+
+            function checkCookieConsent() {
+                if (!document.cookie.split(';').some((item) => item.trim().startsWith('cookie_consent='))) {
+                    consentBanner.style.display = 'flex';
+                }
+            }
+
+            if (acceptCookiesBtn) {
+                acceptCookiesBtn.addEventListener('click', function() {
+                    const d = new Date();
+                    d.setTime(d.getTime() + (365*24*60*60*1000));
+                    let expires = "expires="+ d.toUTCString();
+                    document.cookie = "cookie_consent=true;" + expires + ";path=/";
+                    consentBanner.style.display = 'none';
+                });
+            }
+
+            checkCookieConsent();
+        });
+    </script>
+</body>
+</html>
